@@ -50,3 +50,40 @@ button:hover{
     background: #00bcd4;
 }
 
+ul{
+    list-style:none;
+    margin-top: 20px;
+}
+
+li{
+    background: #111;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li span{
+    color: #00e676;
+}
+
+.completed{
+    text-decoration: line-through;
+    color: #777;
+}
+.btn-completed{
+    background: #00e676;
+    color: #000;
+}
+.btn-edit{
+    background: #00e5ff;
+    color: #000;
+}
+.btn-delete{
+    background: #ff5252;
+    color: #000;
+}
+
+
