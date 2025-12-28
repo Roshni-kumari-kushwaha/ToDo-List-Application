@@ -13,6 +13,19 @@
         <button onclick="addTask()">Add➕</button>
         <ul id="taskList"></ul>
     </div>
+
+    <!-------------------------Edit Task Modal-->
+    <div id="editModal" class="modal hidden">
+        <div class="modal-content">
+            <h3>Edit Task</h3>
+            <input type="text" id="editInput" />
+            <div class="modal-actions">
+                <button onclick="saveEdit()">Save</button>
+                <button onclick="closeModal()">Cancel</button>
+            </div>
+        </div>
+    </div>
+    <div id="toast" class="toast hidden"></div>
     <script src="ToDo.js"></script>
 </body>
 </html>
